@@ -199,7 +199,7 @@ class Fire(Object):
 
 
 def get_background(name):
-    image = pygame.image.load(join('assets', 'background', name))
+    image = pygame.image.load(join('assets', 'Background', name))
     _, _, width, height = image.get_rect()
     tiles = []
 
